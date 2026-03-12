@@ -7,13 +7,13 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ──────────────── Core Settings ────────────────
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "LuckyM2-H4sIAAAAAAAAA5VU2ZKiSBT9l3zVaAXcMKIiBhARUBYFFyb6IYUEUyGhkgQKO/z3CWrproeZipq33OLcc885N38BkuMSmagF81+goLiGDHVL1hYIzIFcxTGioA8iyCCYg55q8q1pXjhVqnHI83iaokX6LK6RcZoqM3uWj0VhtHP2/uYJPPqgqM4pDr8ARKd8qgU+txhebuesMtWltvHaNR+Q8+porwbXW7s6n8yGtbMn8OgQIaaYJGpxQRmiMDVR60BMv0e/Mqani071bVqy82BUHMu2pO5oPDarfHVAwTjWMJa5pUxO36Mf1p4wRGNDWE4OK9qUBtKfnYHpkXhFAvd5qme7TdE4Z8n33+iXOCEo0iNEGGbtt3U/ODjsveQ7YR1mm3Z62uJJRkxHvNHJSNEqpTEqDtmi4WXD7xHfyXaY1Hef3SicIMnfehMjLTIsWJNF5Q3C4yEPe2pqFYr0mbhDP7Jy+z+6DxdLdyeguDcZnLJauwq5xtXGYEgCXVjtmDYuZWPLK/ZSmH2P/rJV+J2998/Nrg6bi+MHqXxVxW3u99pMDdyjfXwO9QMqjp90h6yiX7FkylFHytZ24ovINTLWvNUi3xK32ARLeoscchorrpWH+bLe0PiFxKbqNsd6u0tTblzYbH+LzEQs1pJR3tXatEVqs4X79NrRDbV6BObcow8oSnDJKGQ4J92ZyPcBjOodCilir+oCxR8uMXcK7lC96zJvCZNxIY/Ha8ERXOu4KGdtsCZmr1IM/Qn0QUHzEJUlila4ZDltN6gsYYJKMP/7Zx8Q9MLefOuqCVwfxJiWzCdVkeYw+jD14xKGYV4RtmtJqHQLRMF8+OcYMYZJUnYyVgTS8IJrpFwgK8E8hmmJfjeIKIrAnNEK/R5aJY863QXV4DV3uwF9kL36gSMwB7ORKAizISfw3Jz7q/zRdKCwKH4QxDoF3wl07yPEIE7LTigTi2NdX6i2Et83Q02T1ERSEgn8Ifxh/JuyxiU+H+xSOIvXRrtxnrqy9rbTJp5/FTeBVafENgZRcDnKs6d/AQFzAAe+3MAX6u5TMr03Pe5oHOpyIFYpLMzarrfNdh+sJ0sq0aNXWNWyDmUzDXpQTkeiaHCu91yO2LPt5VbT08nh5gbLRfPUVYtQjUP0udgktFbDbGomyvkym1Vwjxz5fpahNxgtBhr1gymBZrOsW5fbcpa04l/C5hjuFrPQSXL7noUuu+xZ7uLZPloPn+F+dS0l6S2SryORvn9F+DUtnRXdNsbodbIJ7Az62poP2l1+ho/+J4T3n+I/pk3enY48d6UWPzjN5MLyX+T73rvOcpXTB57mncfBHcfC4bRvYvB4/OyDIoUszmnWmUAimuMI9AHNqy6QOonzL4opsq5LSWJ1faewZNKfkHs4QyWDWQHm3HQqCCN+IgqPfwDbB/DpGQcAAA==",
     PREFIX: process.env.PREFIX || ".",
-    BOT_NAME: process.env.BOT_NAME || "GURU MD",
-    STICKER_NAME: process.env.STICKER_NAME || "GURU MD",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254778074353",
-    OWNER_NAME: process.env.OWNER_NAME || "GuruTech",
-    DEV: process.env.DEV || "254778074353",
+    BOT_NAME: process.env.BOT_NAME || "PRINCE KING",
+    STICKER_NAME: process.env.STICKER_NAME || "PRINCE KING",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "84933801321",
+    OWNER_NAME: process.env.OWNER_NAME || "Prince",
+    DEV: process.env.DEV || "84933801321",
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ GuruTech*",
     MODE: process.env.MODE || "public", // public, private, group, inbox
 
@@ -32,7 +32,7 @@ module.exports = {
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", // 'same' to resend in chat
 
     // ──────────────── Auto Features ────────────────
-    AUTO_REACT: process.env.AUTO_REACT || "false",
+    AUTO_REACT: process.env.AUTO_REACT || "true",
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🚀,🌟,⚡,🔥,💫,🪐,🌙,☄️,💥,✨,🌀,🌌,🛸,🎇,🎆",
     AUTO_VOICE: process.env.AUTO_VOICE || "false",
