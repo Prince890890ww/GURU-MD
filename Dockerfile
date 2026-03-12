@@ -1,5 +1,13 @@
-# Base image - Node.js 20 use kar (16 ki jagah)
-FROM node:20-alpine
+# Base image
+FROM node:20-slim  # slim better hai Alpine se
+
+# Git aur build tools install kar
+RUN apt-get update && apt-get install -y \
+    git \
+    python3 \
+    make \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /usr/src/app
