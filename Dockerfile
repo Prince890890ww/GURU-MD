@@ -1,5 +1,5 @@
-# Base image
-FROM node:16
+# Base image - Node.js 20 use kar (16 ki jagah)
+FROM node:20-alpine
 
 # Set working directory
 WORKDIR /usr/src/app
@@ -16,4 +16,3 @@ EXPOSE 3000
 
 # Start the application
 CMD ["npm", "start"]
-
